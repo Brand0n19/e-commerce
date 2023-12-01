@@ -1,0 +1,323 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$p-color: #CBDF8B;
+$s-color: #A7CF65;
+$t-color: #83B535;
+$bg-color: #F6FFDA;
+$dark-color:#4f5c3bfd;
+$black: #00000009;
+$p-font: 'Barlow Condensed', sans-serif;
+$s-font: 'Rubik', sans-serif;
+$t-font: 'Barlow Condensed', sans-serif;
+
+@mixin phone {
+    @media (min-width: 480px) {
+      @content;
+    }
+}
+
+/*Index*/
+/*valores predeterminados*/
+.p-font{
+    font-family: $p-font;
+}
+.s-font{
+    font-family: $s-font;
+}
+.t-font{
+    font-family: $t-font;
+}
+.active{
+    font-weight: bold !important;
+}
+.navbar{
+    .navbar-brand{
+        font-family: 'Goblin one';
+        font-size: 14px;
+        color: $t-color;
+        letter-spacing: 3px;
+    }
+    .navbar-toggler{
+        border: none;
+        &-icon{
+            width: 22px;
+        }
+    }
+    .collapse{
+        font-family: $s-font;
+        font-size: 13px;
+        &_content{
+            .nav-item{
+                text-align: center;
+                a:hover{
+                    font-weight: bold;
+                }
+                .dropdown-menu{
+                    a{
+                        font-size: 13px;
+                        font-family: $s-font;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero{
+    color: white;
+    height: 90vh;
+    text-align: center;
+    &_content{
+        background-color: rgba(0, 0, 0, 0.37);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        .titulo{
+            h1{
+                @include phone{
+                    font-size: 68px;
+                };
+                font-size: 50px;
+                color: $p-color;
+                text-transform: uppercase;
+                font-weight: 900;
+
+            }
+            
+        }
+        .subtitulo{
+            p{
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+
+
+
+/*Show-room*/
+.show-room{
+    background-color: $s-color;
+    .container{
+        color: white;
+        .row{
+            height: 60vh;
+            .f-image{
+                background-image: url(../images/Show-room1.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat:no-repeat;
+            }
+            .f-image:hover{
+                filter: brightness(0.8);
+            }
+            .s-image{
+                background-image: url(../images/Show-room2.png);
+                background-repeat:no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+            .s-image:hover{
+                filter: brightness(0.8);
+            }
+        }
+    }
+}
+
+/*discount*/
+.sale{
+    h2{
+        color: $dark-color;
+        font-size: 30px;
+    }
+    .sale-dad{
+        .sale-card{
+            position: relative;
+
+            .img-dad{
+                overflow: hidden;
+            }
+            img{
+                transform: transform 1s ease;
+            }
+            img:hover{
+                transform: scale(1.12);
+            }
+            .btn{
+                background-color: $t-color;
+                border: none;
+                font-size: 12px;
+            }
+        }
+        .sale-card::after{
+            position: absolute;
+            top: -0%;
+            left: 10%;
+            content: "-20%";
+            text-align: center;
+            width: 80%;
+            background-color: $t-color;
+            font-size: 12px;
+            padding: 2px 10px;
+            color: white;
+            font-weight: bold;
+            font-family: $s-font;
+        }
+    }
+}
+/*Nostros*/
+.nosotros{
+    background-color: $t-color;
+    color: white;
+    .row{
+        .history{
+            margin-bottom: 20px;
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .vision{
+
+        margin-bottom: 20px;
+        h1{
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px;
+        }
+        }
+        .mision{
+        margin-bottom: 20px;
+        h1{
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px;
+        }
+                }
+            }
+}
+
+/*--------------------*/
+/*products*/
+.products{
+    background-image: url(../images/Fondo-Product.png);
+    background-size: contain;
+    &-content{
+        background-color: #000000a6;
+        color: white;
+    }
+    &_items{
+        background: white;     
+            .product-card{
+                .img-dad{
+                    overflow: hidden;
+                }
+                img{
+                    transform: transform 1s ease;
+                }
+                img:hover{
+                    transform: scale(1.12);
+                }
+                .btn{
+                    background-color: $t-color;
+                    border: none;
+                    font-size: 12px;
+                }
+            }
+            .sale-card{
+                position: relative;
+                .img-dad{
+                    overflow: hidden;
+                }
+                img{
+                    transform: transform 1s ease;
+                }
+                img:hover{
+                    transform: scale(1.12);
+                }
+                .btn{
+                    background-color: $t-color;
+                    border: none;
+                    font-size: 12px;
+                }
+            }
+            .sale-card::after{
+                position: absolute;
+                top: -0%;
+                left: 10%;
+                content: "-20%";
+                text-align: center;
+                width: 80%;
+                background-color: $t-color;
+                font-size: 12px;
+                padding: 2px 10px;
+                color: white;
+                font-weight: bold;
+                font-family: $s-font;
+            }
+        
+    }
+}
+
+/*products items*/
+
+.shop{
+    .shop-img{
+        position: relative;
+    }
+    .shop-img::before{
+        position: absolute;
+        background-color: #83B535;
+        content: "-20%";
+        font-size: 18px;
+        padding: 2px 10px;
+        color: white;
+        font-weight: bold;
+        font-family: $s-font;
+        
+    }
+    .product-name{
+        color: $s-color;
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .btn{
+        background-color: $t-color;
+        color: white;
+        width: 100%;
+    }
+    .price{
+        font-size: 25px;
+
+    }
+    .price-discount{
+        font-size: 20px;
+        text-decoration:line-through red 2px;
+        position: relative;
+        
+    }
+    .price-discount::after{
+        position: absolute;
+        font-size: 25px;
+        content: "S/. 32";
+        top: -20%;
+        left: 25%;       
+    }
+}
+
+
+.form-clothe{
+    .form-select{
+        width: 8px !important;
+
+    }
+}

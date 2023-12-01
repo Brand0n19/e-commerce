@@ -1,0 +1,133 @@
+[
+    {
+      "id": 1,
+      "nombre": "Polo Blanco",
+      "detalle": "Oversized polo de algodón pima en blanco. Ideal para un look casual y cómodo.",
+      "img": "../../images/polos/1.jpg",
+      "tipo": "Polo",
+      "color": "Blanco",
+      "discount": true,
+      "precio": 40
+    },
+    {
+      "id": 2,
+      "nombre": "Polo Negro",
+      "detalle": "Oversized polo de algodón pima en negro. Clásico y versátil para cualquier ocasión.",
+      "img": "../../images/polos/2.jpg",
+      "tipo": "Polo",
+      "color": "Negro",
+      "discount": false,
+      "precio": 40
+    },
+    {
+      "id": 3,
+      "nombre": "Polo Gris",
+      "detalle": "Oversized polo de algodón pima en gris. Elegante y moderno para tu estilo diario.",
+      "img": "../../images/polos/3.jpg",
+      "tipo": "Polo",
+      "color": "Gris",
+      "discount": true,
+      "precio": 40
+    },
+    {
+      "id": 4,
+      "nombre": "Hoddie Acero",
+      "detalle": "Hoddie acero confeccionado con mezcla de algodón y poliéster. Perfecto para días frescos.",
+      "img": "../../images/hoddies/4.jpg",
+      "tipo": "Hoddie",
+      "color": "Acero",
+      "discount": false,
+      "precio": 70
+    },
+    {
+      "id": 5,
+      "nombre": "Hoddie Gris",
+      "detalle": "Hoddie gris confeccionado con mezcla de algodón y poliéster. Cálido y cómodo para el invierno.",
+      "img": "../../images/hoddies/5.jpg",
+      "tipo": "Hoddie",
+      "color": "Gris",
+      "discount": false,
+      "precio": 70
+    },
+    {
+      "id": 6,
+      "nombre": "Jean Azul",
+      "detalle": "Jean azul de denim de alta calidad. Añade un toque moderno a tu guardarropa.",
+      "img": "../../images/jeans/6.jpg",
+      "tipo": "Jean",
+      "color": "Azul",
+      "discount": false,
+      "precio": 80
+    },
+    {
+      "id": 7,
+      "nombre": "Jean Claro",
+      "detalle": "Jean claro de denim de alta calidad. Perfecto para un look fresco y relajado.",
+      "img": "../../images/jeans/7.png",
+      "tipo": "Jean",
+      "color": "Claro",
+      "discount": false,
+      "precio": 80
+    },
+    {
+      "id": 8,
+      "nombre": "Jean Negro",
+      "detalle": "Jean negro de denim de alta calidad. Versátil y elegante para cualquier ocasión.",
+      "img": "../../images/jeans/8.png",
+      "tipo": "Jean",
+      "color": "Negro",
+      "discount": false,
+      "precio": 80
+    },
+    {
+      "id": 9,
+      "nombre": "Hoddie Rosada",
+      "detalle": "Hoddie rosada confeccionado con mezcla de algodón y poliéster. Añade un toque de color a tu estilo.",
+      "img": "../../images/hoddies/9.png",
+      "tipo": "Hoddie",
+      "color": "Rosada",
+      "discount": false,
+      "precio": 70
+    },
+    {
+      "id": 10,
+      "nombre": "Hoddie Melon",
+      "detalle": "Hoddie melon confeccionado con mezcla de algodón y poliéster. Fresco y vibrante para días soleados.",
+      "img": "../../images/hoddies/10.png",
+      "tipo": "Hoddie",
+      "color": "Melon",
+      "discount": false,
+      "precio": 70
+    },
+    {
+      "id": 11,
+      "nombre": "Polo Melon",
+      "detalle": "Oversized polo de algodón pima en tono melón. Casual y llamativo para tu día a día.",
+      "img": "../../images/polos/11.png",
+      "tipo": "Polo",
+      "color": "Melon",
+      "discount": false,
+      "precio": 40
+    },
+    {
+      "id": 12,
+      "nombre": "Polo Celeste",
+      "detalle": "Oversized polo de algodón pima en tono celeste. Refrescante y moderno para cualquier ocasión.",
+      "img": "../../images/polos/12.png",
+      "tipo": "Polo",
+      "color": "Celeste",
+      "discount": true,
+      "precio": 40
+    },
+    {
+      "id": 13,
+      "nombre": "Polo Lila",
+      "detalle": "Oversized polo de algodón pima en tono lila. Agrega un toque de color a tu estilo único.",
+      "img": "../../images/polos/13.png",
+      "tipo": "Polo",
+      "color": "Lila",
+      "discount": false,
+      "precio": 40
+    }
+  ]
+  
